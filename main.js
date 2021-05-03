@@ -17,4 +17,4 @@ boton.addEventListener("click",seleccion);
 
 function noRepetida(elegida){
 
-}
+}git
