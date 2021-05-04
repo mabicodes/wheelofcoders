@@ -1,7 +1,3 @@
-.drums img{
-  display: block;
-  margin: auto;
-}
 .bienvenida{
   text-align: center;
   font-family: "Arial Rounded MT Bold","arial";
@@ -25,15 +21,19 @@
 body{
   background: #E5FAFF;
 }
-.confeti{
-  background-size: cover;
+.confetti {
   position: absolute;
-  z-index: -1;
 }
-.contenedor{
+.mainM{
+  background-image: url("/assets/img/confetti.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.main{
   display: flex;
   flex-direction: column;
-  position: absolute;
   align-items: center;
-  z-index: 1;
+  justify-content: center;
 }
