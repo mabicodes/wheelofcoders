@@ -18,6 +18,10 @@
   color: goldenrod;
   font-size: 3em;
   background-color:#ff0000ff;
+  transform: rotate(-15deg);
+  width: 300px;
+  height: 60px;
+  margin: auto;
 
 }
 
