@@ -2,7 +2,6 @@
   display: block;
   margin: auto;
 }
-
 .bienvenida{
   text-align: center;
   font-family: "Arial Rounded MT Bold","arial";
@@ -22,9 +21,19 @@
   width: 300px;
   height: 60px;
   margin: auto;
-
 }
-
 body{
   background: #E5FAFF;
+}
+.confeti{
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  z-index: 1;
 }
