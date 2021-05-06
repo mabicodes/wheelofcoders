@@ -1,3 +1,11 @@
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 768px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
 .bienvenida{
   text-align: center;
   font-family: "Arial Rounded MT Bold","arial";
@@ -38,7 +46,7 @@ body{
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  font-size: 20px;
+  font-size: 1.25em;
   font-family:'Montserrat Alternates', sans-serif;
   transition: 1s;
   border: none;
@@ -51,19 +59,19 @@ body{
   display: flex;
 }
 .style{
-  font-size: 30px;
+  font-size: 1.87em;
   font-weight: bold;
   font-family:'Montserrat Alternates', sans-serif;
   text-align: center;
 }
 #resultado{
-  font-size: 50px;
+  font-size: 3.12em;
   font-weight: bold;
   font-family:'Montserrat Alternates', sans-serif;
   margin-bottom: 60px;
   text-align: center;
 }#lista{
-  font-size: 18px;
+  font-size: 1.25em;
   font-weight: bold;
   font-family:'Montserrat Alternates', sans-serif;
   text-align: center;
