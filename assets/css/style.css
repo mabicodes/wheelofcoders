@@ -19,15 +19,12 @@
   margin-bottom: 30px;
 }
 body{
-
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .confetti {
   position: absolute;
-}
-.mainM{
-
-
 }
 .mainM{
   display: flex;
@@ -42,7 +39,7 @@ body{
   height: 150px;
   width: 150px;
   font-size: 20px;
-  font-family:'Montserrat Alternates', sans-serif;;
+  font-family:'Montserrat Alternates', sans-serif;
   transition: 1s;
   border: none;
 }
@@ -50,3 +47,24 @@ body{
   transform: scale(1.1);
   background-color: #800080;
 }
+.alineacion{
+  display: flex;
+}
+.style{
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Montserrat Alternates', sans-serif;
+  text-align: center;
+}
+#resultado{
+  font-size: 50px;
+  font-weight: bold;
+  font-family:'Montserrat Alternates', sans-serif;
+  margin-bottom: 60px;
+  text-align: center;
+}#lista{
+  font-size: 18px;
+  font-weight: bold;
+  font-family:'Montserrat Alternates', sans-serif;
+  text-align: center;
+ }
