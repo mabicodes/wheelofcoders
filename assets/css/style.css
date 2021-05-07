@@ -1,22 +1,16 @@
-
-.containerh1{
-  max-width: 100%;
-}
 .bienvenida{
   text-align: center;
   font-family: "Arial Rounded MT Bold","arial";
   font-weight: bold;
   color: goldenrod;
   -webkit-text-stroke: 0.5px #696969;
-  font-size: 4em;
+  font-size: 64px;
 }
-
 body{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 .mainM{
   display: flex;
   max-width: 100%;
@@ -60,27 +54,21 @@ body{
   font-family:'Montserrat Alternates', sans-serif;
   text-align: center;
  }
-
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (max-width: 1280px) {
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 }
-@media (min-width: 320px) and (max-width: 767px){
+@media (max-width: 767px){
   body {
     margin: 0;
-
-  }
-
-  .containerh1{
-    max-width: 100%;
   }
   .bienvenida {
-    font-size: 15px;
-
+    font-size: 31px;
+    margin: 20px 20px;
   }
   #spin {
-    height: 80px;
-    width: 80px;
+    height: 188px;
+    width: 180px;
   }
   .style {
     font-size: 18px;
@@ -89,8 +77,8 @@ body{
     font-size: 12px;
   }
   #lista {
-    font-size: 10px ;
+    font-size: 20px ;
     display: flex;
-
+    margin-left: 20px;
   }
 }
