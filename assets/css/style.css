@@ -1,11 +1,7 @@
-@media screen
-and (min-device-width: 375px)
-and (max-device-width: 768px)
-and (-webkit-min-device-pixel-ratio: 2) {
 
-
+.containerh1{
+  max-width: 100%;
 }
-
 .bienvenida{
   text-align: center;
   font-family: "Arial Rounded MT Bold","arial";
@@ -14,28 +10,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
   -webkit-text-stroke: 0.5px #696969;
   font-size: 4em;
 }
-.show{
-  text-align: center;
-  font-family: "helvetica";
-  font-weight: bold;
-  color: goldenrod;
-  font-size: 3em;
-  background-color:#ff0000ff;
-  transform: rotate(-15deg);
-  width: 300px;
-  height: 60px;
-  margin-bottom: 30px;
-}
+
 body{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.confetti {
-  position: absolute;
-}
+
 .mainM{
   display: flex;
+  max-width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -76,3 +60,37 @@ body{
   font-family:'Montserrat Alternates', sans-serif;
   text-align: center;
  }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 320px) and (max-width: 767px){
+  body {
+    margin: 0;
+
+  }
+
+  .containerh1{
+    max-width: 100%;
+  }
+  .bienvenida {
+    font-size: 15px;
+
+  }
+  #spin {
+    height: 80px;
+    width: 80px;
+  }
+  .style {
+    font-size: 18px;
+  }
+  #resultado{
+    font-size: 12px;
+  }
+  #lista {
+    font-size: 10px ;
+    display: flex;
+
+  }
+}
